@@ -8,8 +8,7 @@
 
 set -x
 set -e
-set -o pipefail
-ddddddddggds | echo 
+set -o pipefail  
 
 #echo " print the disk space "
 
