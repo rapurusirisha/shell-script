@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Author : sirisha
+#date : 28/3/2023   
+#Version : V1
+#divisible by 3, divisible by 5 and not divisible by 3*5
+
+for i in {1..100}; do
+  if [ $(expr $i % 3) = 0 ] || [ $(expr $i % 6) = 0 ] && [ $(expr $i % 15) != 0 ]; then
+    echo $i
+  fi
+done
+
+
